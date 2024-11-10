@@ -42,7 +42,14 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
             <div className="col-lg-3 col-md-6 col-6">
               <div style={{margin:"10px"}}>
                 <Link href="/">
-                 <h3>SmartDefi</h3>
+                  <Image
+                    // className="logo-light"
+                    src={logo}
+                    width={150}
+                    height={ 44 }
+                    style={{maxHeight:"40px !important"}}
+                    alt="Web3 Agent Logo"
+                  />
                 </Link>
               </div>
             </div>

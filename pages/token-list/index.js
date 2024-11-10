@@ -308,10 +308,10 @@ const TermsPolicyPage = () => {
             <PopupMobileMenu />
             <LeftpanelDashboard />
 
-            {/* <NewTokenList /> */}
+            <NewTokenList />
           </div>
 
-          <FormCard contractAddress={contractAddress} abi={abi}></FormCard>
+          {/* <FormCard contractAddress={contractAddress} abi={abi}></FormCard> */}
 
         </Context>
       </main>

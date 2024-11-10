@@ -74,13 +74,13 @@ const DEFAULT_PROMPT_MESSAGES = [
       'Transfer 1 BNB to OPTIMISM',
     category: 'BSC'
   },
-  {
-    prompt:
-      'Send 0.0001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
-    example:
-      'Send 0.0001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
-    category: 'BSC'
-  },
+  // {
+  //   prompt:
+  //     'Send 0.0001 BNB to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
+  //   example:
+  //     'Send 0.0001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
+  //   category: 'BSC'
+  // },
   {
     prompt:
       'Approve 0.001 BNB to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
@@ -103,116 +103,116 @@ const DEFAULT_PROMPT_MESSAGES = [
     category: 'BSC'
   },
 
-  {
-    prompt:
-      'Transfer 0.01 CCIP-BnM to MODE TESTNET',
-    example:
-      'Transfer 0.01 CCIP-BnM to MODE TESTNET',
-    category: 'Mode'
-  },
-  {
-    prompt:
-      'Swap 1 USDC to ETH with 5% slippage using enso',
-    example:
-      'Swap 1 USDC to ETH with 5% slippage using enso',
-    category: 'Mode'
-  },
-  {
-    prompt: 'swap 0.0001 ETH to USDC on MODE MAINNET network with 5% slippage',
-    example: 'swap 0.0001 ETH to USDC on MODE MAINNET network with 5% slippage',
-    category: 'Mode'
-  },
-  {
-    prompt:
-      'transfer 1 ETH  to OPTIMISM',
-    example:
-      'transfer 1 ETH  to OPTIMISM',
-    category: 'Mode'
-  },
-  {
-    prompt:
-      'Send 0.0001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
-    example:
-      'Send 0.0001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
-    category: 'Mode'
-  },
-  {
-    prompt:
-      'approve 0.001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
-    example:
-      'approve 0.001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
-    category: 'Mode'
-  },
-  {
-    prompt:
-      'wrap 0.000001 ETH on Etherium network',
-    example:
-      'wrap 0.000001 ETH on Etherium network',
-    category: 'Mode'
-  },
-  {
-    prompt:
-      'unwrap 0.000001 ETH on Etherium network',
-    example:
-      'unwrap 0.000001 ETH on Etherium network',
-    category: 'Mode'
-  },
-  {
-    prompt:
-      'I want to create a vault with layerbank strategy on mode network.',
-    example:
-      'I want to create a vault with layerbank strategy on mode network.',
-    category: 'Mode'
-  },
+  // {
+  //   prompt:
+  //     'Transfer 0.01 CCIP-BnM to MODE TESTNET',
+  //   example:
+  //     'Transfer 0.01 CCIP-BnM to MODE TESTNET',
+  //   category: 'Mode'
+  // },
+  // {
+  //   prompt:
+  //     'Swap 1 USDC to ETH with 5% slippage using enso',
+  //   example:
+  //     'Swap 1 USDC to ETH with 5% slippage using enso',
+  //   category: 'Mode'
+  // },
+  // {
+  //   prompt: 'swap 0.0001 ETH to USDC on MODE MAINNET network with 5% slippage',
+  //   example: 'swap 0.0001 ETH to USDC on MODE MAINNET network with 5% slippage',
+  //   category: 'Mode'
+  // },
+  // {
+  //   prompt:
+  //     'transfer 1 ETH  to OPTIMISM',
+  //   example:
+  //     'transfer 1 ETH  to OPTIMISM',
+  //   category: 'Mode'
+  // },
+  // {
+  //   prompt:
+  //     'Send 0.0001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
+  //   example:
+  //     'Send 0.0001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
+  //   category: 'Mode'
+  // },
+  // {
+  //   prompt:
+  //     'approve 0.001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
+  //   example:
+  //     'approve 0.001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
+  //   category: 'Mode'
+  // },
+  // {
+  //   prompt:
+  //     'wrap 0.000001 ETH on Etherium network',
+  //   example:
+  //     'wrap 0.000001 ETH on Etherium network',
+  //   category: 'Mode'
+  // },
+  // {
+  //   prompt:
+  //     'unwrap 0.000001 ETH on Etherium network',
+  //   example:
+  //     'unwrap 0.000001 ETH on Etherium network',
+  //   category: 'Mode'
+  // },
+  // {
+  //   prompt:
+  //     'I want to create a vault with layerbank strategy on mode network.',
+  //   example:
+  //     'I want to create a vault with layerbank strategy on mode network.',
+  //   category: 'Mode'
+  // },
   //optimism
 
-  {
-    prompt:
-      'Swap 1 USDC to ETH with 5% slippage using enso',
-    example:
-      'Swap 1 USDC to ETH with 5% slippage using enso',
-    category: 'Optimism'
-  },
-  {
-    prompt: 'swap 0.0001 ETH to USDC on MODE MAINNET network with 5% slippage',
-    example: 'swap 0.0001 ETH to USDC on MODE MAINNET network with 5% slippage',
-    category: 'Optimism'
-  },
-  {
-    prompt:
-      'transfer 1 ETH  to OPTIMISM',
-    example:
-      'transfer 1 ETH  to OPTIMISM',
-    category: 'Optimism'
-  },
-  {
-    prompt:
-      'Send 0.0001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
-    example:
-      'Send 0.0001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
-    category: 'Optimism'
-  },
-  {
-    prompt:
-      'approve 0.001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
-    example:
-      'approve 0.001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
-    category: 'Optimism'
-  },
-  {
-    prompt:
-      'wrap 0.000001 ETH on Etherium network',
-    example:
-      'wrap 0.000001 ETH on Etherium network',
-    category: 'Optimism'
-  },
-  {
-    prompt:
-      'unwrap 0.000001 BNB on BSC network',
-    example:
-      'unwrap 0.000001 BNB on BSC network',
-    category: 'Optimism'
-  },
+  // {
+  //   prompt:
+  //     'Swap 1 USDC to ETH with 5% slippage using enso',
+  //   example:
+  //     'Swap 1 USDC to ETH with 5% slippage using enso',
+  //   category: 'Optimism'
+  // },
+  // {
+  //   prompt: 'swap 0.0001 ETH to USDC on MODE MAINNET network with 5% slippage',
+  //   example: 'swap 0.0001 ETH to USDC on MODE MAINNET network with 5% slippage',
+  //   category: 'Optimism'
+  // },
+  // {
+  //   prompt:
+  //     'transfer 1 ETH  to OPTIMISM',
+  //   example:
+  //     'transfer 1 ETH  to OPTIMISM',
+  //   category: 'Optimism'
+  // },
+  // {
+  //   prompt:
+  //     'Send 0.0001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
+  //   example:
+  //     'Send 0.0001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
+  //   category: 'Optimism'
+  // },
+  // {
+  //   prompt:
+  //     'approve 0.001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
+  //   example:
+  //     'approve 0.001 ETH to 0x20613aBe93e4611Cf547b4395E4248c6129c8697',
+  //   category: 'Optimism'
+  // },
+  // {
+  //   prompt:
+  //     'wrap 0.000001 ETH on Etherium network',
+  //   example:
+  //     'wrap 0.000001 ETH on Etherium network',
+  //   category: 'Optimism'
+  // },
+  // {
+  //   prompt:
+  //     'unwrap 0.000001 BNB on BSC network',
+  //   example:
+  //     'unwrap 0.000001 BNB on BSC network',
+  //   category: 'Optimism'
+  // },
 
   //ccpi category
   {

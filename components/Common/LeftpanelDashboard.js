@@ -133,7 +133,14 @@ const LeftpanelDashboard = () => {
                       </Link>
                     </li>
                     
+                    <li>
+                      <Link className={isActive("/token-list") ? "active" : ""} href="/token-list">
+                        {/* <i className="feather-search"></i> */}
+                        <i className="feather-database"></i>
 
+                        <span>Token List</span>
+                      </Link>
+                    </li>
 
                   </ul>
                   <div className="rbt-sm-separator"></div>

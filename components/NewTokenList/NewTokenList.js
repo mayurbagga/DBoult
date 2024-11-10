@@ -6,15 +6,18 @@ import Link from 'next/link';
 
 const apiHeader = {
   'accept': 'application/json',
-  'X-API-Key': '6003b52789f13f830faf170256386ad6b26dd2f6',
+  'X-API-Key': '395673cb820ea7c81085c0881d8e11ac128e1e9a',
 };
 
 const chainOptions = [
+  { value: 'bsc', label: 'Binance Smart Chain', icon: 'https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=024' },
+  { value: 'opbnb', label: 'OP BNB', icon: 'https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=024' },
+
   { value: 'ether', label: 'Ethereum', icon: 'https://cryptologos.cc/logos/ethereum-eth-logo.png?v=024' },
   { value: 'polygon', label: 'Polygon', icon: 'https://cryptologos.cc/logos/polygon-matic-logo.png?v=024' },
-  { value: 'bsc', label: 'Binance Smart Chain', icon: 'https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=024' },
-  { value: 'avalanche', label: 'Avalanche', icon: 'https://cryptologos.cc/logos/avalanche-avax-logo.png?v=024' },
-  { value: 'fantom', label: 'Fantom', icon: 'https://cryptologos.cc/logos/fantom-ftm-logo.png?v=024' },
+  // { value: 'bsc', label: 'Binance Smart Chain', icon: 'https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=024' },
+  // { value: 'avalanche', label: 'Avalanche', icon: 'https://cryptologos.cc/logos/avalanche-avax-logo.png?v=024' },
+  // { value: 'fantom', label: 'Fantom', icon: 'https://cryptologos.cc/logos/fantom-ftm-logo.png?v=024' },
   // Add other chains as needed
 ];
 

@@ -43,46 +43,46 @@ const COMPONENT_MOUNT_ACTIONS = [
 ];
 
 const DEFAULT_PROMPT_MESSAGES = [
-  {
-    prompt: "Give me quick stats about Blockscout.",
-    example: "Give me quick stats about Blockscout.",
-    category: "Blockscout",
-  },
-  {
-    prompt: "Give me transaction count information.",
-    example: "Give me transaction count information.",
-    category: "Blockscout",
-  },
-  {
-    prompt: "Give me market cap and closing prince information.",
-    example: "Give me market cap and closing prince information.",
-    category: "Blockscout",
-  },
-  {
-    prompt: "I want to know more about token which have USDT symbol.",
-    example: "I want to know more about token which have USDT symbol.",
-    category: "Blockscout"
-  },
-  {
-    prompt: "I want to know verified smart contracts stats overview.",
-    example: "I want to know verified smart contracts stats overview.",
-    category: "Blockscout"
-  },
-  {
-    prompt: "Please give me the top exchange list based on volume on the Ethereum network.",
-    example: "Please give me the top exchange list based on volume on the Ethereum network.",
-    category: "Exchange",
-  },
-  {
-    prompt: "Please give me the top exchange list based on pool size on the Ethereum network.",
-    example: "Please give me the top exchange list based on pool size on the Ethereum network.",
-    category: "Exchange",
-  },
-  {
-    prompt: "Please give me the top exchange list based on swap size on the Ethereum network.",
-    example: "Please give me the top exchange list based on swap size on the Ethereum network.",
-    category: "Exchange",
-  },
+  // {
+  //   prompt: "Give me quick stats about Blockscout.",
+  //   example: "Give me quick stats about Blockscout.",
+  //   category: "Blockscout",
+  // },
+  // {
+  //   prompt: "Give me transaction count information.",
+  //   example: "Give me transaction count information.",
+  //   category: "Blockscout",
+  // },
+  // {
+  //   prompt: "Give me market cap and closing prince information.",
+  //   example: "Give me market cap and closing prince information.",
+  //   category: "Blockscout",
+  // },
+  // {
+  //   prompt: "I want to know more about token which have USDT symbol.",
+  //   example: "I want to know more about token which have USDT symbol.",
+  //   category: "Blockscout"
+  // },
+  // {
+  //   prompt: "I want to know verified smart contracts stats overview.",
+  //   example: "I want to know verified smart contracts stats overview.",
+  //   category: "Blockscout"
+  // },
+  // {
+  //   prompt: "Please give me the top exchange list based on volume on the Ethereum network.",
+  //   example: "Please give me the top exchange list based on volume on the Ethereum network.",
+  //   category: "Exchange",
+  // },
+  // {
+  //   prompt: "Please give me the top exchange list based on pool size on the Ethereum network.",
+  //   example: "Please give me the top exchange list based on pool size on the Ethereum network.",
+  //   category: "Exchange",
+  // },
+  // {
+  //   prompt: "Please give me the top exchange list based on swap size on the Ethereum network.",
+  //   example: "Please give me the top exchange list based on swap size on the Ethereum network.",
+  //   category: "Exchange",
+  // },
   {
     prompt: "Please give me the top exchange list based on volume on the BSC network.",
     example: "Please give me the top exchange list based on volume on the BSC network.",
@@ -113,12 +113,7 @@ const DEFAULT_PROMPT_MESSAGES = [
     example: "Please give me the top exchange list based on swap size on the opBNB network.",
     category: "Exchange",
   },
-  {
-    prompt: "Gas Price",
-    example:
-      "Give me the gas price of the Ethereum network for performing fast transaction",
-    category: "Finance",
-  },
+  
   {
     prompt: "Gas Price",
     example:
@@ -147,13 +142,7 @@ const DEFAULT_PROMPT_MESSAGES = [
     example: "Give me block details for block number 31779828 on opBNB network",
     category: "Info",
   },
-  {
-    prompt:
-      "Give me the score for token 0xfb7b4564402e5500db5bb6d63ae671302777c75a on the Ethereum network",
-    example:
-      "Give me the score for token 0xfb7b4564402e5500db5bb6d63ae671302777c75a on the Ethereum network",
-    category: "Token",
-  },
+
   {
     prompt:
       "Give me the score for token 0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c on the BSC network",
@@ -165,13 +154,6 @@ const DEFAULT_PROMPT_MESSAGES = [
     prompt: "Give me blockchain list",
     example: "Give me blockchain list",
     category: "Blockchain",
-  },
-  {
-    prompt:
-      "Please give me the pool liquidity score for token 0xa29fe6ef9592b5d408cca961d0fb9b1faf497d6d on the Ethereum network",
-    example:
-      "Please give me the pool liquidity score for token 0xa29fe6ef9592b5d408cca961d0fb9b1faf497d6d on the Ethereum network",
-    category: "Finance",
   },
   {
     prompt:
