@@ -13,7 +13,7 @@ import {
   QueryClient,
 } from "@tanstack/react-query";
 
-import { mainnet, mode, modeTestnet,sepolia, bsc, bscTestnet, arbitrum, arbitrumGoerli, arbitrumSepolia, base, baseSepolia, optimism, optimismSepolia, opBNBTestnet } from "wagmi/chains";
+import {opBNB, mainnet, mode, modeTestnet,sepolia, bsc, bscTestnet, arbitrum, arbitrumGoerli, arbitrumSepolia, base, baseSepolia, optimism, optimismSepolia, opBNBTestnet } from "wagmi/chains";
 import { okxWallet } from '@rainbow-me/rainbowkit/wallets';
 
 
@@ -41,7 +41,7 @@ export const Web3Agent = {
 export const config = getDefaultConfig({
   appName: 'Web3 Agent',
   projectId: 'YOUR_PROJECT_ID',
-  chains: [bsc, opBNBTestnet, sepolia],
+  chains: [bsc,opBNB, opBNBTestnet, sepolia],
   ssr: true,
 });
 
